@@ -15,7 +15,7 @@ This project is an AI Chatbot Management System that allows users to create and 
 -   **Vector Database**: Pinecone stores and manages the embeddings of text chunks from PDF documents, enabling efficient similarity searches.
 -   **Language Models**: Google Generative AI (Gemini models) are used for:
     -   Generating text embeddings (`models/embedding-001`).
-    -   Generating conversational responses (`gemini-1.5-pro`) as part of a Retrieval Augmented Generation (RAG) pipeline.
+    -   Generating conversational responses (`gemini-2.0-flash`) as part of a Retrieval Augmented Generation (RAG) pipeline.
 
 ## Key Design Choices
 
