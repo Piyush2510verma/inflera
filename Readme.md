@@ -1,5 +1,7 @@
 # AI Chatbot Management System
 
+# Try it out yourself - https://inflera-mtz3djddpzrczzhn36tjey.streamlit.app/
+
 ## Description
 
 This project is an AI Chatbot Management System built with Streamlit. It allows users to create and manage multiple chatbots, each with its own knowledge base derived from uploaded PDF documents. The system uses Pinecone for vector storage and retrieval, and Google Generative AI (Gemini) for generating embeddings and conversational responses. It also includes simple tools for calculations and dictionary lookups.
