@@ -51,7 +51,7 @@ This project is an AI Chatbot Management System that allows users to create and 
 
 3.  **Run the Application**:
     ```bash
-    python run.py
+    streamlit run app/main.py
     ```
     Access the application in your browser, typically at `http://localhost:8502`.
 
