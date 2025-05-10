@@ -38,8 +38,8 @@ This project is an AI Chatbot Management System built with Streamlit. It allows 
 
 1.  **Clone the Repository** (if applicable)
     ```bash
-    # git clone <repository-url>
-    # cd <repository-directory>
+    git clone https://github.com/Piyush2510verma/inflera.git
+    cd inflera
     ```
 
 2.  **Create and Activate a Virtual Environment** (recommended)
