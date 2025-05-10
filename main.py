@@ -418,7 +418,7 @@ def query_chatbot_logic(query: str): # Returns structured dict
         Answer:"""
 
         with st.spinner("Generating response with Gemini..."):
-            model = genai.GenerativeModel('gemini-1.5-pro')
+            model = genai.GenerativeModel('gemini-2.0-flash')
             response = model.generate_content(prompt_template)
             final_answer_text = response.text
             # Handle cases where response.text might be empty due to safety filters etc.
