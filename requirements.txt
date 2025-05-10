@@ -1,0 +1,9 @@
+streamlit==1.38.0
+python-multipart==0.0.10
+langchain==0.3.7
+google-generativeai==0.7.2
+pinecone==6.0.2
+PyMuPDF==1.25.5
+tiktoken==0.9.0
+python-dotenv==1.0.1
+requests==2.32.3
