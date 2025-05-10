@@ -60,6 +60,4 @@ This project is an AI Chatbot Management System that allows users to create and 
 -   **Active Chatbot Focus**: The system is designed for querying only one active chatbot at a time. You must select a chatbot from the available list to interact with it.
 -   **Embedding Generation Costs (Gemini API)**: Creating new chatbots involves generating text embeddings using the Google Generative AI API. This process can consume API credits. It is recommended to use a paid Gemini API key for extensive chatbot creation, especially with large documents, to avoid hitting free tier limits or incurring unexpected costs. Monitor your API usage accordingly.
 
----
 
-*Previous sections like "Features", "Project Structure", and "Key Technologies Used" have been integrated into the sections above to maintain brevity.*
