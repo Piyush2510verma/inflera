@@ -10,7 +10,7 @@ This project is an AI Chatbot Management System built with Streamlit. It allows 
 -   **Chatbot Interaction**: Select an active chatbot and query it.
 -   **RAG Pipeline**: Implements a Retrieval Augmented Generation (RAG) pipeline using Pinecone for semantic search and Google Generative AI for response generation.
 -   **Vector Storage**: Utilizes Pinecone for efficient storage and similarity search of text embeddings.
--   **AI Models**: Leverages Google Generative AI for text embeddings (`models/embedding-001`) and chat completions (`gemini-1.5-pro`).
+-   **AI Models**: Leverages Google Generative AI for text embeddings (`models/embedding-001`) and chat completions (`gemini-2.0-flash`).
 -   **Built-in Tools**:
     -   **Calculator**: Performs simple arithmetic calculations (e.g., "calculate 5 * 3").
     -   **Dictionary**: Provides definitions for words (e.g., "define serendipity").
@@ -72,7 +72,7 @@ This project is an AI Chatbot Management System built with Streamlit. It allows 
 
 1.  Execute the `run.py` script:
     ```bash
-    python run.py
+    streamlit run app/main.py
     ```
 2.  The application will typically be accessible at `http://localhost:8502` or the address specified by `SERVER_ADDRESS` and `SERVER_PORT` in your `.env` file or terminal.
 
